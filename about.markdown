@@ -1,18 +1,16 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi there, I'm Philip Oka, a guy passionated on entrepreneurship, innovation, technology. I'm inspired
+to help entrepreneurs create a better world, a world where innovation brings fairness and justice for everybody,
+where the only problems are the stupid problems.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+If you're interested in technology, entrepreneurship, innovation, personal finance
+then maybe you'll like this place. My goal in this blog is to run experiments in myself,
+to answer a couple of questions I have (and I believe other people might have as well),
+to give my point of view and recommendations, tips and tricks and also do some reviews on
+things I also enjoy.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
