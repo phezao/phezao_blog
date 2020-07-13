@@ -29,6 +29,9 @@
           </div>
           <div class="col-4">
             <h2 class="post-list-heading">Top Categories</h2>
+            {%- for post in site.posts -%}
+              <a class="category" href="/">{{ post.categories }}</a>
+            {%- endfor -%}
           </div>
         </div>
 

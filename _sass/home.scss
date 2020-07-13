@@ -40,3 +40,18 @@ i{
   font-size: 24px;
   padding: 0 18px;
 }
+
+.category{
+  color: white;
+  background-color: #FFBABA;
+  padding: 2 16px;
+  margin: 8px;
+  border-radius: 3px;
+  transition: .2s;
+  &:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #FF7272;
+    transform: scale(1.5);
+  }
+}
