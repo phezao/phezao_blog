@@ -2,12 +2,36 @@
   {% include head.html %}
 
   <body>
-    {% include navbar.html %}
+    {% include navbar_home.html %}
     <div class="container">
-      <h1>Hello World</h1>
-
       <main class="page-content">
         {{ content }}
+
+        <div class="row">
+          <div class="col-8">
+            {%- if site.posts.size > 0 -%}
+              <h2 class="post-list-heading">{{ page.list_title | default: "Latest" }}</h2>
+                {%- for post in site.posts -%}
+                  <h3>
+                    <a class="post-link" href="{{ post.url | relative_url }}">
+                      {{ post.title | escape }}
+                    </a>
+                  </h3>
+                  {%- if site.show_excerpts -%}
+                    {{ post.excerpt }}
+                  {%- endif -%}
+                {%- endfor -%}
+
+
+              <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+              {%- endif -%}
+          </div>
+          <div class="col-4">
+            <h2 class="post-list-heading">Top Categories</h2>
+          </div>
+        </div>
+
+
       </main>
     </div>
 

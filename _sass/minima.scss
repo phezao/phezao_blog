@@ -3,8 +3,9 @@ body{
 }
 
 .page-content{
-  min-height: calc(100vh - 294px);
+  min-height: calc(100vh - 81px);
 }
 
 @import "navbar";
 @import "footer";
+@import "home";
