@@ -1,5 +1,42 @@
 .post-list-heading{
   font-size: 24px;
-  color: #FF0000;
+  color: #FF7272;
   font-weight: 500;
+  margin-bottom: 48px;
+}
+
+.post-link{
+  font-weight: 700;
+  font-size: 24px;
+  color: black;
+}
+
+.post-excerpt{
+  margin: 36px 0;
+}
+
+.read-more{
+  margin-top: 32px;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+
+.post{
+  margin: 48px 0;
+}
+
+.icons{
+  a{
+    color: #CAC9C9;
+
+    &:hover{
+      color: white;
+    }
+  }
+}
+
+i{
+  font-size: 24px;
+  padding: 0 18px;
 }
