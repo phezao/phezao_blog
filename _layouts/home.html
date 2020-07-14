@@ -8,7 +8,7 @@
         {{ content }}
 
         <div class="row">
-          <div class="col-8">
+          <div class="col-lg-8 col-sm-12">
             {%- if site.posts.size > 0 -%}
               <h2 class="post-list-heading">{{ page.list_title | default: "Latest" }}</h2>
                 {%- for post in site.posts -%}
@@ -27,7 +27,7 @@
               <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
               {%- endif -%}
           </div>
-          <div class="col-4">
+          <div class="col-lg-4 d-none d-lg-inline-block d-xl-inline-block">
             <h2 class="post-list-heading">Top Categories</h2>
             {%- for post in site.posts -%}
               <a class="category" href="/">{{ post.categories }}</a>
