@@ -1,0 +1,10 @@
+.container-post{
+  margin: 0 32px 24px 32px;
+}
+
+
+@media (min-width: 400px) {
+  .container-post{
+    margin: 0 500px 48px 500px;
+  }
+}

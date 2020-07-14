@@ -27,6 +27,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: philip-oka
 github_username:  phezao
 show_excerpts: true
+test: [entrepreneurship, data science, product management]
 
 # Build settings
 theme: minima

@@ -17,6 +17,9 @@ nav.spacing{
   font-size: 36px;
   font-weight: 600;
   color: #FF0000;
+  &:hover{
+    color: black;
+  }
 }
 
 .arrow{
@@ -42,4 +45,7 @@ nav.spacing{
   font-size: 20px;
   font-weight: 500;
   color: black;
+  &:hover{
+    color: #FF0000;
+  }
 }
