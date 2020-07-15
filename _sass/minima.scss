@@ -1,0 +1,14 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.page-content{
+  min-height: calc(100vh - 81px);
+}
+
+@import "navbar";
+@import "footer";
+@import "home";
+@import "newsletter";
+@import "post";

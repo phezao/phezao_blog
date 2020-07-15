@@ -1,0 +1,50 @@
+.header{
+  margin-bottom: 48px;
+  h1{
+    margin-bottom: 24px;
+  }
+}
+
+.post-list-heading{
+  font-size: 24px;
+  color: #FF7272;
+  font-weight: 500;
+  margin-bottom: 48px;
+}
+
+.post-link{
+  font-weight: 700;
+  font-size: 24px;
+  color: black;
+}
+
+.post-excerpt{
+  margin: 36px 0;
+}
+
+.read-more{
+  margin-top: 32px;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+
+.post{
+  margin: 48px 0;
+}
+
+
+.category{
+  color: white;
+  background-color: #FFBABA;
+  padding: 2 16px;
+  margin: 8px;
+  border-radius: 3px;
+  transition: .2s;
+  &:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #FF7272;
+    transform: scale(1.5);
+  }
+}

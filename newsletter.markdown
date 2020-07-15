@@ -1,7 +1,7 @@
 ---
-layout: page
-title: About me
-permalink: /about/
+layout: newsletter
+title: Newsletter
+permalink: /newsletter/
 ---
 
 Hi there, I'm Philip Oka, a guy passionated on entrepreneurship, innovation, technology. I'm inspired

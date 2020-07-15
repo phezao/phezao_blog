@@ -1,0 +1,51 @@
+<html>
+  {% include head.html %}
+
+  <body>
+    {% include navbar_home.html %}
+    <div class="container">
+      <div class="header">
+        <h1>A blog about technology, innovation, entrepreuneurship and life!</h1>
+        <p>Hope you like it 🙂</p>
+      </div>
+      <main class="page-content">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12">
+            {%- if site.posts.size > 0 -%}
+              <h2 class="post-list-heading">{{ page.list_title | default: "Latest" }}</h2>
+                {%- for post in site.posts -%}
+                <div class="post">
+                  <h3>
+                    <a class="post-link" href="{{ post.url | relative_url }}">
+                      {{ post.title | escape }}
+                    </a>
+                  </h3>
+                  {%- if site.show_excerpts -%}
+                    {{ post.excerpt }}
+                  {%- endif -%}
+                  <a class="read-more" href="{{post.url | relative_url}}">Read more</a>
+                </div>
+                {%- endfor -%}
+              <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+              {%- endif -%}
+          </div>
+          <div class="col-lg-4 d-none d-lg-inline-block d-xl-inline-block">
+            <h2 class="post-list-heading">Top Categories</h2>
+            {%- for post in site.posts -%}
+              <a class="category" href="/">{{ post.categories }}</a>
+            {%- endfor -%}
+          </div>
+        </div>
+
+
+      </main>
+    </div>
+
+    {% include footer.html %}
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/06827c2f41.js" crossorigin="anonymous"></script>
+  </body>
+</html>
