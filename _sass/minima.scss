@@ -2,6 +2,16 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
+h1{
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+@media (min-width: 400px) {
+  h1{
+    font-size: 2.5rem
+  }
+}
 
 .page-content{
   min-height: calc(100vh - 81px);
