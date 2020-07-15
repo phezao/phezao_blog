@@ -7,7 +7,7 @@ layout: default
       <main class="page-content">
       <h1>Subscribe to receive the latest posts!</h1>
       <p>If you want to receive posts about entrepreneurship, innovation, personal finance, technology in my point of view, subscribe to the newsletter:</p>
-      {% for data in site.data.mailchimp %}
+      {%- for data in site.data.mailchimp -%}
       <div id="mc_embed_signup">
       <form action="{{data.link}}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
           <div id="mc_embed_signup_scroll">
@@ -28,8 +28,7 @@ layout: default
           </div>
       </form>
       </div>
-      {% endfor %}
+      {%- endfor -%}
       <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-      <!--End mc_embed_signup-->
       </main>
     </div>
