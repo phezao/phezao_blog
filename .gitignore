@@ -3,4 +3,4 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
-newsletter.markdown
+_data/mailchimp.yml
