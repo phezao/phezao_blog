@@ -23,7 +23,7 @@ email: philip.oka@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A blog about technology, innovation, entrepreuneurship and life! Hope you like it 🙂
 baseurl: "/phezao_blog/" # the subpath of your site, e.g. /blog
-url: "phezao.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "phezao.github.io/phezao_blog/" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: philip-oka
 github_username:  phezao
 show_excerpts: true
