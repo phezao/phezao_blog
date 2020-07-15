@@ -27,7 +27,6 @@ url: "phezao.github.io/phezao_blog/" # the base hostname & protocol for your sit
 linkedin_username: philip-oka
 github_username:  phezao
 show_excerpts: true
-test: [entrepreneurship, data science, product management]
 
 # Build settings
 theme: minima
