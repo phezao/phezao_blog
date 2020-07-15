@@ -22,8 +22,8 @@ title: < Phezao >
 email: philip.oka@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A blog about technology, innovation, entrepreuneurship and life! Hope you like it 🙂
-baseurl: "www.phezao.tk/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "www.phezao.tk" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: philip-oka
 github_username:  phezao
 show_excerpts: true
