@@ -4,9 +4,11 @@
   <body>
     {% include navbar_home.html %}
     <div class="container">
+      <div class="header">
+        <h1>A blog about technology, innovation, entrepreuneurship and life!</h1>
+        <p>Hope you like it 🙂</p>
+      </div>
       <main class="page-content">
-        {{ content }}
-
         <div class="row">
           <div class="col-lg-8 col-sm-12">
             {%- if site.posts.size > 0 -%}

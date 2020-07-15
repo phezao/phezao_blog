@@ -3,6 +3,7 @@ layout: post
 title:  "What's the best rating system for your startup?"
 date:   2020-07-11 15:18:55 +0100
 categories: Entrepreneurship
+author: Philip Oka
 ---
 
 Whether you're building your own startup, working for one or aspire to build one someday, it's undeniable that information is crucial. With so much data, you can make better decisions, predict the future and create better experiences. If you ever come across the question from the title, I hope that at the end of this post you have a clear understanding on rating systems for your startup, or at least some notion so that you can push the discussion further.
@@ -13,7 +14,7 @@ I'm going to try to answer these couple of questions throughout this post:
 - **How to choose a rating system?**
 - **How can I keep my rating system reliable?**
 
-Let's get started!
+**Let's get started!**
 
 ## What are the most commonly used rating system?
 ### Star system

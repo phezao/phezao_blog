@@ -30,6 +30,8 @@ label{
   }
 }
 
-.form{
-  margin-right: 48px;
+@media (min-width: 400px) {
+  .form{
+    margin-right: 48px;
+  }
 }

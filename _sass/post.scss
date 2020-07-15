@@ -5,6 +5,18 @@
 
 @media (min-width: 400px) {
   .container-post{
-    margin: 0 500px 48px 500px;
+    margin: 0 600px 48px 600px;
+  }
+}
+
+.post-content{
+  h2{
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+  }
+  p{
+    margin-bottom: 4rem;
+    font-size: 18px;
+    line-height: 1.8;
   }
 }
