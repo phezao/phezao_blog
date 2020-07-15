@@ -11,7 +11,7 @@ What’s up? So this week I decided to try one of the Udemy courses called “Li
 
 ## Beginning
 
-To start off, I know very little about Linux, just the very basic commands (like cp, mv, rm, cd), so I’m going to assess the course just as if knew nothing about it.
+To start off, I know very little about Linux, just the very basic commands (like cp, mv, rm, cd), so I’m going to assess the course just as if I knew nothing about it.
 
 If you don’t have Linux, it’s pretty cool that the professor show you how to install on your machine as a virtual machine and as a dual boot, so don’t worry if you’re a windows user and wanted to try out.
 

@@ -47,8 +47,10 @@ Choose your rating system based on customer behavior and objectives! Think about
 
 - **Is there any serious risk/consequence involved in the transaction?** \
 The bigger the risk involved in the transaction, the more important are the reviews for the customer. If you're choosing a hotel for vacations for example, you will spend some time reading the reviews and looking at the ratings. For low risk transactions like a Youtube video, a movie on netflix, you can benefit from a binary system.
+
 - **Does your customer could benefit from personalized experience from your product?** \
 If your customer could benefit from personalized experience, for example the recommended movies in netflix , or the videos on Youtube, then you should probably stick to binary system. This way you can collect more data to make predictions about the users taste. A Binary system will force the user to take a side, and that will give you enough data to make a decision like that (although it could be biased).
+
 - **Does the service/product I offer is seen like a commodity (low differentiation)?** \
 If your product/service is seen by the customer as a commodity, a low differentiation product/service, then it may not need too many criterias to assess its performance. For example, for Uber a simple five-star system is good enough to verify which drivers are good or not, and even if it's not that precise, it doesn't have to go so deep in the criterias.
 
