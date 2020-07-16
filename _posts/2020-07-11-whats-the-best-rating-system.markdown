@@ -27,23 +27,19 @@ Obviously there are tweaks and variations in each one of them, because the more 
 
 ## What are the Pros and Cons of each system?
 ### Star System
-**Pros**
-
+####**Pros**
 Qualitative reviews can stimulate and increase user engagement, nurturing a community inside your business/project. Look at Airbnb, Zomato, Yelp, those platforms stimulate the user to give feedback and help each other on their shared interest (finding a good restaurant).
 
-**Cons**
-
+####**Cons**
 The more complex the process to review, the less stimulated the user will feel to give their feedback (unless it's a pretty bad experience). I believe that getting feedback from the users can be a challenge, mainly because our first instinct is to just do nothing. So it can be very difficult to collect reviews if you create too much complexity (too many criterias) to your star system.
 
 Now if you're thinking about simplifying your rating to just an overall star system, there's the risk of getting wrong feedback. If you're an e-commerce and have a star system for your product, the user will (by default) evaluate the whole experience, not your product. So if the shipment is late because of the delivery company, the low rating might be counting that. That's why it can be important to have your customers to write reviews, if they complain about the shipping, you know where's the problem.
 
 ### Binary System
-**Pros**
-
+####**Pros**
 Requires very little mental effort for the user to put on, so you will certainly will have more data.
 
-**Cons**
-
+####**Cons**
 It doesn't differentiates the "it was an ok experience, didn't hate it", from a "THIS IS REALLY AMAZING". Your customer will fill the rating with a "like" even if it was just ok and that can mislead other people and make your rating biased.
 
 ## How do I choose a rating system?
