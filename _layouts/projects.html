@@ -5,10 +5,29 @@ layout: default
       <main class="page-content">
         <h1>Projects</h1>
 
-        <div class="project">
-          <h2><a href="https://mytribe.pt">MyTribe</a></h2>
-          <p>{{page.mytribe}}</p>
-          <p>Wordpress, HTML, CSS, Javascript, Bootstrap</p>
+        <div class="row project">
+          <div class="col-12 col-md-6">
+            <a href="https://mytribe.pt"><img src="../images/mytribe.png" class="d-none d-lg-block desktop" alt=""></a>
+          </div>
+          <div class="col-12 col-md-6 ">
+            <h2><a href="https://mytribe.pt">MyTribe</a></h2>
+            <img src="../images/mytribe.png" class="d-sm-none" alt="">
+            <p>{{page.mytribe}}</p>
+            <p>Wordpress, HTML, CSS, Javascript, Bootstrap</p>
+          </div>
         </div>
+
+        <div class="row project">
+          <div class="col-12 col-md-6 ">
+            <h2><a href="https://stood.herokuapp.com">Stood</a></h2>
+            <img src="../images/stood.png" class="d-sm-none" alt="">
+            <p>{{page.stood}}</p>
+            <p>Ruby on Rails, HTML, CSS, Javascript, Bootstrap, PostgreSQL</p>
+          </div>
+          <div class="col-12 col-md-6">
+            <a href="https://stood.herokuapp.com"><img src="../images/stood.png" class="d-none d-lg-block desktop" alt=""></a>
+          </div>
+        </div>
+
       </main>
     </div>

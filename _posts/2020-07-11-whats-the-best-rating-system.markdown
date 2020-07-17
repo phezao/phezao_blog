@@ -27,32 +27,35 @@ Obviously there are tweaks and variations in each one of them, because the more 
 
 ## What are the Pros and Cons of each system?
 ### Star System
-**Pros** \
+#### Pros
 Qualitative reviews can stimulate and increase user engagement, nurturing a community inside your business/project. Look at Airbnb, Zomato, Yelp, those platforms stimulate the user to give feedback and help each other on their shared interest (finding a good restaurant).
 
-**Cons** \
+#### Cons
 The more complex the process to review, the less stimulated the user will feel to give their feedback (unless it's a pretty bad experience). I believe that getting feedback from the users can be a challenge, mainly because our first instinct is to just do nothing. So it can be very difficult to collect reviews if you create too much complexity (too many criterias) to your star system.
 
 Now if you're thinking about simplifying your rating to just an overall star system, there's the risk of getting wrong feedback. If you're an e-commerce and have a star system for your product, the user will (by default) evaluate the whole experience, not your product. So if the shipment is late because of the delivery company, the low rating might be counting that. That's why it can be important to have your customers to write reviews, if they complain about the shipping, you know where's the problem.
 
 ### Binary System
-**Pros** \
+#### Pros
 Requires very little mental effort for the user to put on, so you will certainly will have more data.
 
-**Cons** \
+#### Cons
 It doesn't differentiates the "it was an ok experience, didn't hate it", from a "THIS IS REALLY AMAZING". Your customer will fill the rating with a "like" even if it was just ok and that can mislead other people and make your rating biased.
 
 ## How do I choose a rating system?
 Choose your rating system based on customer behavior and objectives! Think about these couple of questions for a moment:
 
-- **Is there any serious risk/consequence involved in the transaction?** \
-The bigger the risk involved in the transaction, the more important are the reviews for the customer. If you're choosing a hotel for vacations for example, you will spend some time reading the reviews and looking at the ratings. For low risk transactions like a Youtube video, a movie on netflix, you can benefit from a binary system.
+- **Is there any serious risk/consequence involved in the transaction?**
 
-- **Does your customer could benefit from personalized experience from your product?** \
-If your customer could benefit from personalized experience, for example the recommended movies in netflix , or the videos on Youtube, then you should probably stick to binary system. This way you can collect more data to make predictions about the users taste. A Binary system will force the user to take a side, and that will give you enough data to make a decision like that (although it could be biased).
+  The bigger the risk involved in the transaction, the more important are the reviews for the customer. If you're choosing a hotel for vacations for example, you will spend some time reading the reviews and looking at the ratings. For low risk transactions like a Youtube video, a movie on netflix, you can benefit from a binary system.
 
-- **Does the service/product I offer is seen like a commodity (low differentiation)?** \
-If your product/service is seen by the customer as a commodity, a low differentiation product/service, then it may not need too many criterias to assess its performance. For example, for Uber a simple five-star system is good enough to verify which drivers are good or not, and even if it's not that precise, it doesn't have to go so deep in the criterias.
+- **Does your customer could benefit from personalized experience from your product?**
+
+  If your customer could benefit from personalized experience, for example the recommended movies in netflix , or the videos on Youtube, then you should probably stick to binary system. This way you can collect more data to make predictions about the users taste. A Binary system will force the user to take a side, and that will give you enough data to make a decision like that (although it could be biased).
+
+- **Does the service/product I offer is seen like a commodity (low differentiation)?**
+
+  If your product/service is seen by the customer as a commodity, a low differentiation product/service, then it may not need too many criterias to assess its performance. For example, for Uber a simple five-star system is good enough to verify which drivers are good or not, and even if it's not that precise, it doesn't have to go so deep in the criterias.
 
 ## How can I keep my rating system reliable?
 But a problem can come up. What if people start giving good ratings even though it was an average experience? After some time, your ratings could plateau to a 4.3 score and even with a bad review or a really good one, it would remain the 4.3. How can you keep the score still reliable?
